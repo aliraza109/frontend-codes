@@ -99,6 +99,7 @@ color: #f0d816;
 }
 .layer4content{
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 .layer4content h1{
   margin-left: 20px;
@@ -115,3 +116,10 @@ color: #f0d816;
 }
 
 /***LAYER 3 END****/
+.section3content button{
+  padding: 5px 20px;
+  background-color: white;
+}
+.section3content{
+  padding: 80px 40px;
+}
