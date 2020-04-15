@@ -1,21 +1,21 @@
-*{
-  margin: 0;
-   padding: 0;
-   box-sizing: border-box;
 
-}
 body{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: center;
 }
 /***HEADER SECTION START****/
 .headersection{
   width: 100%;
   height: 100%;
   background-image: url("../images/outsource-services-home-hero-bg.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+
 }
 .navbar-brand img{
   height: 140px;
@@ -81,6 +81,10 @@ color: #f0d816;
   }
 /***HEADER SECTION END****/
 /***LAYER 3 START****/
+.layer3{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
 .layer3content{
   margin-top: 80px;
 }
@@ -94,12 +98,16 @@ color: #f0d816;
 .layer3content button{
   margin-left: 80px;
 }
+.image2 img{
+  max-width: 100%;
+  height: auto;
+}
 .layer3div{
   padding-top: 50px;
 }
 .layer4content{
-  margin-top: 80px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .layer4content h1{
   margin-left: 20px;
@@ -112,14 +120,27 @@ color: #f0d816;
   margin-left: 20px;
 }
 .layer4div{
-  padding-top: 50px;
+  padding-top: 80px;
 }
-
+.image3 img{
+  max-width: 100%;
+  height: auto;
+}
 /***LAYER 3 END****/
 .section3content button{
   padding: 5px 20px;
   background-color: white;
 }
 .section3content{
-  padding: 80px 40px;
+  padding: 80px 30px;
+}
+.section3content h1{
+  color:#f0d816; ;
+}
+.section3content p{
+color: white;
+padding: 10px 0;
+}
+.section3content button{
+  padding: 10px 25px;
 }
