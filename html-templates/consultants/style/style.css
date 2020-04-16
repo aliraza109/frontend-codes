@@ -8,6 +8,11 @@ body{
   line-height: 1.5;
   text-align: center;
 }
+img{
+  height: auto;
+  border: 0;
+  max-width: 100%;
+}
 /***HEADER SECTION START****/
 .headersection{
   width: 100%;
@@ -20,6 +25,7 @@ body{
 .navbar-brand img{
   height: 140px;
   width: 160px;
+max-height: 150px;
   padding-left: 20px;
   margin-left: 20px;
   margin-bottom: 0!important;
@@ -144,3 +150,48 @@ padding: 10px 0;
 .section3content button{
   padding: 10px 25px;
 }
+/***SERVICE SECTION START****/
+.Services{
+ 
+  width: 600px;
+  display: flex;
+  
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+/***SERVICE SECTION START****/
+.services{
+  padding: 30px 0;
+  text-align: center;
+}
+.services img{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.services h1{
+font-weight: 400px;
+text-align: center;
+}
+.services h3{
+  font-size: 25px;
+}
+.services p{
+ color: gray;
+ font-size: 20px;
+ padding: 30px 0;
+ }
+/***SERVICE SECTION END****/
+/*** SECTION 5 START****/
+.section5{
+  margin: 30px 0;
+}
+ .section5 img{
+  width: 100%;
+  height: auto;
+}
+.section5contant{
+  margin-top: 80px;
+}
+/*** SECTION 5 END****/
