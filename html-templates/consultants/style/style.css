@@ -133,6 +133,16 @@ color: #f0d816;
   height: auto;
 }
 /***LAYER 3 END****/
+/*.section3::after{
+  content: '';
+  background-color: yellow;
+  display: block;
+  height: 10px;
+  width: 700px;
+  margin: 20px auto 5px;
+ z-index: 1;
+}
+*/
 .section3content button{
   padding: 5px 20px;
   background-color: white;
@@ -195,3 +205,80 @@ text-align: center;
   margin-top: 80px;
 }
 /*** SECTION 5 END****/
+/*** FOOTER START****/
+footer{
+  background-color:#2d2f44 ;
+}
+.socialiciondiv{
+margin-top: 100px; 
+padding-bottom: 60px;
+
+text-align: center;
+}
+.socialiciondiv img{
+  width: 100%;
+  height: auto;
+ 
+}
+.socialicion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.socialicion a{
+
+  padding: 10px;
+  
+}
+.socialicion img{
+  border-radius: 50%;
+}
+.contactinfo{
+  color: white;
+  margin-top: 100px;
+  padding-bottom: 60px;
+
+}
+.contactinfo a{
+  color: white;
+  text-decoration: none;
+}
+.quicklinks{
+  margin-top: 100px;
+  padding-bottom: 60px;
+
+}
+.quicklinks h2{
+  color: white;
+}
+.quicklinks li{
+  padding: 10px 0;
+  color: rgb(93, 93, 175);
+}
+.quicklinks a{
+  color: white;
+  text-decoration: none;
+
+}
+.informationabout{
+  padding-bottom: 60px;
+margin-top: 100px;
+color: white;
+}
+.informationabout li{
+  padding: 10px 0;
+  color: rgb(93, 93, 175);
+}
+.informationabout a{
+  color: white;
+  text-decoration: none;
+
+}
+.copyright{
+  border-top: 1px solid rgb(110, 106, 106);
+  color: white;
+  padding: 12px 0;
+}
+/*** FOOTER END****/
