@@ -1,0 +1,288 @@
+/***HEADER SECTION START****/
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headersection{
+    width: 100%;
+    height: 100%;
+    background-color: #4a57fe;
+  }
+  .top-header{
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      text-align:right;
+     padding-right: 100px;
+    
+  }
+  .navbar-brand {
+      padding: 0!important;
+      margin-left: 100px;
+  }
+  .navbar-brand img{
+    height: 140px;
+    width: 160px;
+   max-height: 150px;
+  margin-bottom: 0!important;
+  }
+  .navbar{
+    background-color: transparent;
+   width: 100%!important;
+   padding: 0%!important;
+   margin: 0%!important;
+  }
+  .navigation{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  .navigation a{
+      color:white!important;
+      text-align: right;
+       text-decoration: none;
+     
+  }
+  .navbar-toggler{
+    outline: none!important;
+  }
+  span{
+    color: white;
+    font-size: 20px!important;
+  }
+  .navigation ul{
+    margin-right: 100px;
+  }
+  .header-content{
+   text-align: center;
+   padding: 100px 0px;
+  }
+  .header-content h1{
+    color: #f0d816;
+  }
+  .header-content p{
+    font-size: 20px;
+    color:white;
+    font-weight: 800px;
+  }
+  @media only screen and (max-width: 600px) {
+    .navigation ul{
+      margin-right: 20px;
+    }
+    .navbar-brand {
+      padding: 0!important;
+      margin-left: 10px;
+  }
+  .navbar-brand img{
+    height: 120px;
+    width: 140px;
+   max-height: 120px;
+  margin-bottom: 0!important;
+  }
+  .top-header{
+    text-align: center;
+    padding-right: 0px;
+  }
+  }
+
+  
+  /***HEADER SECTION END****/
+  .form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .contact-us-form{
+    position:relative ;
+    text-align: center;
+    width: 800px;
+    height: 100%;
+    background-color: #e9e9f5;
+    padding:  50px 20px 0px 20px;
+    bottom: 60px;
+
+  }
+  .contact-us-form h4{
+    font-weight: bold;
+    color: black;
+  }
+  .contact-us-form .contact-us-column{
+    margin-bottom: 12px;
+  }
+   .contact-us-form label {
+    float: left;
+    display: block;
+    font-size: 1rem;
+    margin: 0!important;
+}
+.contact-us-form label span{
+color: red;
+}
+.contact-us-form input{
+  width: 100%;
+  background: #FFFFFF;
+  border: none;
+  border: 1px solid rgb(119, 137, 155);
+  box-shadow: 0 0 0 10px rgba(146,151,156,0.03);
+  height: 50px;
+  font-size: 20px;
+  outline: none;
+  padding-left: 1em;
+  background-color: #e9e9f5;
+
+}
+.contact-us-form .contact-us-btn{
+margin: 50px 0;
+background-color: #4a57fe;
+padding: 8px 50px;
+}
+/*** form section start****/
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.input-container input,.input-container button{
+    font-size: 1.5rem;
+    border: none;
+    background: white;
+}
+.input-container button:focus{
+	background: white;
+}
+.input-container i{
+  padding: 0!important;
+}
+.subscribe{
+width: 100%;
+max-width: 1200px;
+    background-color: #5e4ef5;
+border-radius: 5px;
+    text-align: center;
+    padding: 40px 20px 0  20px;
+    
+}
+.subscribe p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400px;
+}
+.subscribe h1{
+    color: white;
+    font-weight: bold;
+    font-family: Cambria;
+}
+.formsection{
+  background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe{
+  position: relative;
+  top: 60px;
+}
+/*** form section end****/
+
+/*** FOOTER START****/
+footer{
+  background-color:#2d2f44 ;
+}
+.footer{
+   padding-top: 100px;
+  padding-bottom: 60px;}
+.socialiciondiv{
+padding-top: 30px;
+text-align: center;
+}
+.socialiciondiv img{
+  width: 100%;
+  height: auto;
+ 
+}
+.socialicion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.socialicion a{
+
+  padding: 10px;
+  
+}
+.socialicion img{
+  border-radius: 50%;
+}
+.contactinfo{
+  color: white;
+  padding-top: 30px;
+  text-align: left;
+
+}
+.contactinfo a{
+  color: white;
+  text-decoration: none;
+}
+
+.quicklinks{
+color: white;
+padding-top: 30px;
+
+}
+.quicklinks h4{
+  color: white;
+}
+.quicklinks li{
+  padding: 10px 0;
+  color: rgb(93, 93, 175);
+}
+.quicklinks a{
+  color: white;
+  text-decoration: none;
+
+}.quicklinks a:hover{
+  color: white;
+  text-decoration: none;
+
+}
+.informationabout{
+color: white;
+padding-top: 30px;
+
+}
+.informationabout h3{
+  font-size: 30px;
+}
+.informationabout li{
+  padding: 10px 0;
+  color: rgb(93, 93, 175);
+}
+.informationabout a{
+  color: white;
+  text-decoration: none;
+
+}.informationabout a:hover{
+  color: white;
+  text-decoration: none;
+
+}
+.copyright{
+  border-top: 1px solid rgb(110, 106, 106);
+  color: white;
+  padding: 12px 0;
+}
+/*** FOOTER END****/
