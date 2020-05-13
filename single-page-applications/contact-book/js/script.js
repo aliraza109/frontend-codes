@@ -6,6 +6,7 @@ const ellipsisListIcon= document.getElementById("ellipsis-list-icon");
 const ellipsisList= document.getElementById("ellipsis-list");
 
 const saveBtn = document.getElementById('btn-save');
+const modal2= document.getElementById('myModal2');
 
 ellipsisListIcon.addEventListener('click', function(){
    
@@ -120,9 +121,21 @@ function clearForm(){
             span.innerHTML=contactBook[i].contactName;
             contact.appendChild(span);
             contactList.appendChild(contact);
+
             span.addEventListener('click', function(){
-                alert(this.id)
-            })
+               $('#myModal2').modal('show');
+             
+             const contact= contactBook[this.id]
+        document.getElementById('name').innerHTML =contact.contactName;
+        
+       const numbersList=document.getElementById('numbersList');
+       for(let i=0;i<contact.contactNumbers.length;i++){
+       const numbers =document.createElement('li');
+       numbers.classList.add('numbers');
+       numbers.innerHTML=contact.contactNumbers[i];
+       numbersList.appendChild(numbers);
+        };
+            });
         }
 
     };
