@@ -121,7 +121,15 @@ function clearForm(){
             span.innerHTML=contactBook[i].contactName;
             contact.appendChild(span);
             contactList.appendChild(contact);
-
+            const contactListClear= document.getElementById('contactListClear');
+            contactListClear.addEventListener('click', function(){
+           document.getElementById('numbersList').innerHTML="";
+        } );
+        const contactListClearBtn =document.getElementById('contactListClearBtn');
+        contactListClearBtn.addEventListener('click', function(){
+       
+            document.getElementById('numbersList').innerHTML="";
+             });
             span.addEventListener('click', function(){
                $('#myModal2').modal('show');
              
@@ -134,6 +142,7 @@ function clearForm(){
        numbers.classList.add('numbers');
        numbers.innerHTML=contact.contactNumbers[i];
        numbersList.appendChild(numbers);
+
         };
             });
         }

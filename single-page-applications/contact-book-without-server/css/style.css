@@ -1,12 +1,12 @@
 .outer-div{
     width: 400px;
-    background: rgb(224, 211, 211);
+    background: rgb(193, 197, 223);
 }
 .inner-div{
     border-radius: 5px;
    
     text-align: center;
-    background: rgb(224, 211, 211);
+    background: rgb(193, 197, 223);
 }
 .search-icon{
     width: 100%;
@@ -16,6 +16,7 @@
     text-align: right;
 }
 .search-icon i{
+    cursor: pointer;
     margin: 0 10px;
 }
 .ellipsis-list{
@@ -29,6 +30,7 @@
   
 .modal-content{
     width: 450px;
+    background-color: rgb(185, 203, 238);
 }
 .modal-footer{
     text-align: center;
@@ -73,12 +75,24 @@ margin-left: 30px;
   background: #555; 
 }
 .contact{
+    margin-right: 40px;
+    border-bottom: 2px solid gray;
     margin-top: 10px;
-    padding: 10px 0;
+    padding: 8px 0;
    list-style: none;
    cursor: pointer;
 }
 .numbers{
+    border-bottom: 2px solid gray;
+    margin-right: 40px;
     list-style: none;
     font-size: 2rem;
+    padding: 5px 0;
 }
+#name{
+    margin-left: 40px;
+}
+#contactListClearBtn{
+    margin-right: 300px;
+     text-align: center;
+ }
