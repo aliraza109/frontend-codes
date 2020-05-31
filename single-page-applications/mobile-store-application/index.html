@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+
+	<title>Single Page App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+	<link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+	
+		<h1><a href="#">Single Page App</a></h1>
+	</header>
+
+	<div class="main-content">
+
+		<div class="all-products page">
+
+			<div class="filters">
+				<form>
+
+					<div class="filter-criteria">
+						<span>Manufacturer</span>
+						<label><input type="checkbox" name="manufacturer" value="apple">Apple</label>
+						<label><input type="checkbox" name="manufacturer" value="samsung">Samsung</label>
+						<label><input type="checkbox" name="manufacturer" value="htc">HTC</label>
+						<label><input type="checkbox" name="manufacturer" value="nokia">Nokia</label>
+						<label><input type="checkbox" name="manufacturer" value="zte">ZTE</label>
+						<label><input type="checkbox" name="manufacturer" value="sony">Sony</label>
+					</div>
+
+					<div class="filter-criteria">
+						<span>Screen Size</span>
+						<label><input type="checkbox" value="16" name="storage">16 GB</label>
+						<label><input type="checkbox" value="32" name="storage">32 GB</label>
+					</div>
+
+					<div class="filter-criteria">
+						<span>OS</span>
+						<label><input type="checkbox" value="android" name="os">Android</label>
+						<label><input type="checkbox" value="ios" name="os">iOS</label>
+						<label><input type="checkbox" value="windows" name="os">Windows</label>
+					</div>
+
+					<div class="filter-criteria">
+						<span>Camera</span>
+						<label><input type="checkbox" value="5" name="camera">5 Mpx</label>
+						<label><input type="checkbox" value="8" name="camera">8 Mpx</label>
+						<label><input type="checkbox" value="12" name="camera">12 Mpx</label>
+						<label><input type="checkbox" value="15" name="camera">15 Mpx</label>
+					</div>
+
+					<button>Clear filters</button>
+
+				</form>
+
+			</div>
+
+			<ul class="products-list" id="products-list">
+		
+		
+				
+			</ul>
+
+		</div>
+	</div>
+
+
+	<div class="container">
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+		  <div class="modal-dialog">
+		  
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h1 class="modal-title" id="name">Modal Header</h1>
+			  </div>
+			  <div class="modal-body">
+				<img id="myImg" src="">
+
+				<p id="description">Some text in the modal.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+			
+		  </div>
+		</div>
+		
+	  </div>
+	  
+	  <script>
+	  
+	  </script>
+	  
+
+
+	</div>
+		
+
+
+	
+<script src="js/script.js"></script>
+</body>
+</html>
