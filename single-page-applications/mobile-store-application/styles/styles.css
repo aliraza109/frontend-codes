@@ -79,7 +79,7 @@ header a {
 	text-align: left;
 	color: #2B2E31;
 	opacity: 1;
-	pointer-events: none;
+	
 }
 .filters .filter-criteria{
 	display: block;
