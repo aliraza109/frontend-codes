@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏳</text></svg>"
+    />
+  </head>
+
+  <body>
+    <div class="stopwatch">
+      <h1 class="title"> STOPWATCH</h1>
+      <div class="canvas-wrap">
+        <canvas id="canvas" width="300" height="300"></canvas>
+        <span id="procent">00:00</span>
+        
+      </div>
+
+      <div class="controls">
+        <button class="buttonPlay">
+          <img id="playButton" src="icons/play-button.svg" />
+
+          <img id="pauseButton" src="icons/pause-button.svg" />
+        </button>
+
+        <button class="buttonReset">
+          <img id="resetButton" src="icons/reset-button.svg" />
+        </button>
+      </div>
+      <div class="clock-container">  
+        <!-- Clock number-->  
+        <div class="clock-number num1"><div class=""></div></div>  
+        <div class="clock-number num2"><div class=""></div></div>  
+        <div class="clock-number num3"><div class=""></div></div>  
+        <div class="clock-number num4"><div class=""></div></div>  
+        <div class="clock-number num5"><div class=""></div></div>  
+        <div class="clock-number num6"><div class=""></div></div>  
+        <div class="clock-number num7"><div class=""></div></div>  
+        <div class="clock-number num8"><div class=""></div></div>  
+        <div class="clock-number num9"><div class=""></div></div>  
+        <div class="clock-number num10"><div class=""></div></div>  
+        <div class="clock-number num11"><div class=""></div></div>  
+        <div class="clock-number num12"><div class=""></div></div>  
+      </div>  
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
